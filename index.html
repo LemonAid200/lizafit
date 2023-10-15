@@ -12,10 +12,11 @@
         <div class="intro_photo">
             <img src="https://taplink.st/p/d/1/d/c/59451810.png?0" alt="">
             <button class="inst_button">@laiza_fit</button>
-            <p>измени себя и свое тело всего</p>
+            <p class="change_your_body">измени себя и свое тело всего</p>
             <h1 class="intro_title-white">ЗА 30 ДНЕЙ</h1>
+            <button class="intro_photo_button_choose">выбрать тариф</button>
+
         </div>
-        <button class="intro_photo_button_choose">выбрать тариф</button>
     </div>
     
     <div class="messages">
@@ -37,7 +38,7 @@
         </div>
     </div>
     
-    <button>ХОЧУ К ВАМ!</button>
+    <button class="wanna_join_button">ХОЧУ К ВАМ!</button>
     
     <div class="text">
         <h2>Этот проект для тебя, если:</h2>
@@ -125,8 +126,8 @@
 
     .inst_button{
         position: absolute;
-        left: 61px;
-        top: 95px;
+        left: 18%;
+        top: 36%;
     }
 
     .intro_title {
@@ -184,7 +185,7 @@
         margin-left: 20%;        
     }
 
-    .intro_photo button {
+    .intro_photo .inst_button {
         width: 109px;
         height: 29px;
         flex-shrink: 0;
@@ -218,13 +219,33 @@
         text-transform: uppercase;
     }
 
+    .change_your_body{
+        margin-top: -104px;
+    }
+
+    .wanna_join_button{
+        width: 80%;
+        height: 61px;
+        border-radius: 200px;
+        background: #9F18FF;
+        color: #E2E2E2;
+        font-family: Onest;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 20px auto;
+        display: block;
+    }
+
     .messages {
         display: flex;
     }
     .messages_author {
+        margin-left: 10px;
     }
     .messages_author_icon {
-        width: 77px;
+        width: 120px;
 
     }
     .messages_author_name {
